@@ -125,12 +125,12 @@ imgpause.onclick=function () {
     imgplay.style.display = "inline-block";
     hart.classList.toggle("fa-beat");}
 // --------------------------------------------------------------------------
-playbtn.onclick=function(){
-  listview[0].classList.toggle("active");
-  hart.classList.toggle("fa-beat");
-    Audio.play() 
-    imgplay.style.display ="none"; 
-    imgpause.style.display = "inline-block";}
+// playbtn.onclick=function(){
+//   listview[0].classList.toggle("active");
+//   hart.classList.toggle("fa-beat");
+//     Audio.play() 
+//     imgplay.style.display ="none"; 
+//     imgpause.style.display = "inline-block";}
 // --------------------------------------------------------------
 
 Audio.onended=function(){
